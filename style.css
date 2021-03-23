@@ -1,0 +1,46 @@
+.header{
+    padding: 80px;
+    text-align: "center";
+    background-color: crimson;
+    color: white;
+}
+
+.menulist{
+    overflow: hidden;
+    background-color: yellow;
+}
+.menulist a{
+    padding: 14px 20px;
+    color: crimson;
+    text-align: center;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menulist a:hover{
+    background-color: crimson;
+    color: white;
+}
+.row{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+.leftSide{
+flex: 30%;
+background-color: crimson;
+padding: 20px;
+
+}
+
+.rightSide{
+flex: 70%;
+background-color: white;
+padding: 20px;
+}
+
+.header h1{
+    font-size: x-large;
+}
